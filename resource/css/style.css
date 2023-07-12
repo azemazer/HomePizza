@@ -1,0 +1,368 @@
+* {
+    font-family: 'Cabin', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    min-height: auto;
+}
+
+.mobilearrow {
+    display:none;
+}
+
+header {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 1rem;
+}
+
+header > * {
+    flex: 1;
+    display: flex;
+}
+
+.logo > img {
+    max-width: 6.938rem;
+    margin: 0.5rem;
+}
+
+.navicon {
+    justify-content: flex-end;
+}
+
+nav {
+    justify-content: space-around;
+}
+
+.imgmobile {
+    display: none;
+}
+
+nav > p {
+    color: #845050;
+    font-family: "Caladea", serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+
+.navtext:hover  {
+    text-decoration: underline;
+    transition: all 1s;
+    ;
+}
+
+.navicon > img {
+    max-height: 2.5rem;
+    max-width: auto;
+}
+
+.banner {
+    background-image: url("../pics/pizza.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 75rem;
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.inbanner {
+    background-color: #992525;
+    opacity: 70%;
+    color: white;
+    padding: 3rem;
+    max-width: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
+}
+
+.inbanner > p {
+    font-family: 'Cabin', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+button {
+    border-radius: 0px;
+    background-color: white;
+    opacity: 1;
+    color: #992525;
+    border: 0px;
+    max-width: 60%;
+    align-self: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: "Cabin", sans-serif;
+    font-size: 30px;
+    justify-self: center;
+}
+
+button:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.3s;
+}
+
+h1, h2, h3, h5, h6 {
+    font-family: "Caladea", serif ;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.maine {
+    position: relative;
+    max-width: 75rem;
+    margin: auto;
+
+    background-color: #fff;
+}
+
+#lospictos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.picto {
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.picto > img {
+    opacity: 70%;
+    margin: 3rem 0 3rem;
+}
+
+.picto > p {
+    font-size: 22px;
+    opacity: 70%;
+    font-family: "Cabin", sans-serif;
+    margin: 1rem;
+}
+
+.gens {
+    max-width: 9.688rem;
+    box-shadow: 12px 12px gray;
+}
+
+.line {
+    background-color: #B0B0B0;
+    width: 1px;
+    height: 8rem;
+}
+
+#avis {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#avis > h2 {
+    margin: 2rem 0rem 3rem;
+    font-size: 64px;
+    text-align: center;
+}
+
+.nom, .prenom {
+    color: #2E8924;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Cabin", sans-serif;
+}
+
+.nom {
+    font-size: 32px;
+}
+.prenom {
+    font-size: 24px;
+    font-variant-caps:all-petite-caps
+}
+
+#identites {
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+#identites > .line {
+    height: 12rem;
+}
+
+.lesavis, .lesavisk {
+    flex: 1;
+    display: flex;
+    gap: 0.6rem;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.lesavis > *, .lesavisk > * {
+    flex: 1;
+}
+
+.quote {
+    margin: 1rem 0rem;
+    text-align: center;
+    color: #252525;
+    font-size: 20px;
+    line-height: 1.2rem;
+    max-width: 9.688rem;
+    font-style: italic;
+}
+
+#video {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    gap: 2rem;
+    margin: 4rem 0rem;
+}
+
+.videobloc {
+    max-width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+h3 {
+    font-size: 42px;
+}
+
+.videobloc > p {
+    font-size: 28px;
+    color: grey;
+}
+
+footer { 
+    background-color: #DBDBDB;
+    display: flex;
+    justify-content: center;
+}
+
+#footerblock {
+    flex: 1;
+    max-width: 75rem;
+    margin: 4rem 0rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logofooter {
+    max-width: 21.625rem;
+}
+
+h4 {
+    font-family: "Cabin", sans-serif;
+    font-variant: small-caps;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+@media all and (max-width: 46.25rem) {
+
+    #footerblock {
+        flex-flow: column;
+        margin: 0px;
+    }
+
+    #video {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .videobloc {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .footerin {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    #identites {
+        gap: 0rem;
+    }
+
+    .line {
+        display: none;
+    }
+
+    #lospictos {
+        flex-flow: column;
+        align-items: center;
+        padding: 0rem 2rem;
+        gap: 0rem;
+    }
+
+    button {
+        max-width: 100%;
+    }
+
+    .inbanner > * {
+        text-align: center;
+    }
+
+    #bg {
+        display: block;
+        background-image: url(../pics/pizza2.jpg);
+        background-position: center;
+    }
+
+    .maine, .banner {
+        background-color: transparent;
+        background-image: none;
+    }
+
+    .imgdesktop, .navtext, .lesavisk {
+        display: none;
+    }
+
+    .imgmobile, .mobilearrow {
+        display: block;
+    }
+
+    .logofooter {
+        max-width: 80%;
+    }
+
+    #network {
+        flex-flow: row;
+    }
+
+    .footerin > img {
+        margin: 2rem 0rem;
+    }
+}
